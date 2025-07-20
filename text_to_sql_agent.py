@@ -9,7 +9,7 @@ from langchain_core.prompts import PromptTemplate
 from langchain_core.messages import SystemMessage
 
 # Configurar a chave da API OpenAI (substitua pela sua chave real ou use variáveis de ambiente)
-# os.environ["OPENAI_API_KEY"] = "SUA_CHAVE_OPENAI_AQUI"
+os.environ["OPENAI_API_KEY"] = "SUA_CHAVE_OPENAI_AQUI"
 
 db_path = 'database.db'
 
